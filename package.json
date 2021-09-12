@@ -1,0 +1,28 @@
+{
+  "name": "go-tutorial",
+  "version": "1.0.0",
+  "description": "golang tutorial",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "release": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niexia/go-tutorial.git"
+  },
+  "author": "yangjin.fe@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niexia/go-tutorial/issues"
+  },
+  "homepage": "https://github.com/niexia/go-tutorial#readme",
+  "devDependencies": {
+    "vitepress": "^0.17.3"
+  }
+}
