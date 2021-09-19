@@ -1,0 +1,1 @@
+import{o as t,c as e}from"./app.74d4a0b3.js";const a='{"title":"","description":"","frontmatter":{},"relativePath":"scheduling-system/design.md","lastUpdated":1632067650461}',r={};r.render=function(a,r,s,d,i,n){return t(),e("div")};export{a as __pageData,r as default};
