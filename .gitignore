@@ -2,3 +2,5 @@ node_modules
 docs/.vitepress/dist
 package-lock.json
 yarn.lock
+bin
+pkg
