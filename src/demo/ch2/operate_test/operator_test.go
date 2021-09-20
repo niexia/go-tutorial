@@ -11,3 +11,16 @@ func TestCompareArray(t *testing.T) {
 	// t.Log(a == c) // invalid operation: a == c (mismatched types [4]int and [5]int)
 	t.Log(a == d)
 }
+
+
+const (
+	Readable = 1 << iota
+	Writable
+	Executable
+)
+
+func TestBitClear(t *testing.T) {
+	a := 7
+	a = a &^ Readable
+	t.Log(a == Readable, a&Writable == Writable, a&Executable == Executable)
+}
