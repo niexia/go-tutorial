@@ -15,14 +15,19 @@ module.exports = {
         link: '/guide/',
         activeMatch: '^/guide/'
       },
-      {
-        text: '调度系统',
-        link: '/scheduling/',
-      },
+      // {
+      //   text: 'admin 管理系统',
+      //   link: '/admin/',
+      // },
+      // {
+      //   text: '分布式调度系统',
+      //   link: '/scheduling/',
+      // }
     ],
 
     sidebar: {
       '/guide/': getGuideSidebar(),
+      '/admin/': getAdminSidebar(),
       '/scheduling/': getSchedulingSidebar(),
     }
   }
@@ -82,6 +87,16 @@ function getGuideSidebar() {
       }]
     }
   ]
+}
+
+function getAdminSidebar() {
+  return [{
+    text: 'Admin System',
+    children: [{
+      text: 'Design',
+      link: '/admin/design'
+    }, ]
+  }]
 }
 
 function getSchedulingSidebar() {

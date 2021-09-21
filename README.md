@@ -10,13 +10,7 @@
 
 - [ ] golang 学习文档
 - [ ] golang web 知识
-- [ ] 实现一个分布式系统（[from crocodile](https://github.com/labulaka521/crocodile)）
-  - [ ] 支持通过 web 页面添加、修改、复制和执行任务
-  - [ ] 查看实时的任务执行日志
-  - [ ] 支持多种类型的任务
-  - [ ] 支持不同调度算法
-  - [ ] 自定义告警策略
-  - [ ] 权限控制
+- [ ] 实现一个后台管理系统
 ## Running
 
 ```sh
@@ -29,12 +23,6 @@ cd go-tutorial
 ```sh
 yarn install
 npm run docs:dev
-```
-
-### 启动服务
-
-```sh
-docker-compose up -d
 ```
 
 这样就会在浏览器上打开地址，你需要输入管理员账号和密码，然后就可以进入了。
