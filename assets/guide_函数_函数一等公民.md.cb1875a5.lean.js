@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,d as t}from"./app.ab67f476.js";const p='{"title":"函数：一等公民","description":"","frontmatter":{},"headers":[{"level":2,"title":"函数式编程","slug":"函数式编程"}],"relativePath":"guide/函数/函数一等公民.md","lastUpdated":1632207195116}',o={},c=[t('',6)];var e=n(o,[["render",function(n,t,p,o,e,u){return a(),s("div",null,c)}]]);export{p as __pageData,e as default};
