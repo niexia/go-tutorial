@@ -66,6 +66,9 @@ function getGuideSidebar() {
       }, {
         text: 'map',
         link: '/guide/常见集合/map'
+      }, {
+        text: 'map和工厂模式',
+        link: '/guide/常见集合/map和工厂模式'
       }]
     }
   ]
