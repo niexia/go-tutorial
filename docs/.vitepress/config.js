@@ -70,6 +70,16 @@ function getGuideSidebar() {
         text: 'map和工厂模式',
         link: '/guide/常见集合/map和工厂模式'
       }]
+    },
+    {
+      text: '函数',
+      children: [{
+        text: '一等公民',
+        link: '/guide/函数/函数一等公民'
+      }, {
+        text: '函数',
+        link: '/guide/函数/可变参数和defer'
+      }]
     }
   ]
 }
