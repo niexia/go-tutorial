@@ -15,10 +15,10 @@ module.exports = {
         link: '/guide/',
         activeMatch: '^/guide/'
       },
-      // {
-      //   text: 'admin 管理系统',
-      //   link: '/admin/',
-      // },
+      {
+        text: 'Web admin',
+        link: '/admin/',
+      },
       // {
       //   text: '分布式调度系统',
       //   link: '/scheduling/',
@@ -91,10 +91,10 @@ function getGuideSidebar() {
 
 function getAdminSidebar() {
   return [{
-    text: 'Admin System',
+    text: 'Web Admin',
     children: [{
-      text: 'Design',
-      link: '/admin/design'
+      text: '介绍',
+      link: '/admin/'
     }, ]
   }]
 }
