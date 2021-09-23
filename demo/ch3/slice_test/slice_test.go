@@ -4,20 +4,20 @@ import "testing"
 
 func TestSliceInit(t *testing.T) {
 	var s0 []int // 和数组的不同，不用指定长度
-	t.Log(len(s0), cap(s0))
+	t.Log(len(s0), cap(s0)) // 0 0
 
 	s0 = append(s0, 1)
-	t.Log(len(s0), cap(s0))
+	t.Log(len(s0), cap(s0)) // 1 1
 
 	s1 := []int{1, 2, 3, 4}
-	t.Log(len(s1), cap(s1))
+	t.Log(len(s1), cap(s1)) // 4 4
 
 	s2 := make([]int, 3, 5)
-	t.Log(len(s2), cap(s2))
+	t.Log(len(s2), cap(s2)) // 3 5
 	// t.Log(s2[0], s2[1], s2[2], s2[3], s2[4]) // 报错，超过 range 3
 	s2 = append(s2, 1)
-	t.Log(s2[0], s2[1], s2[2], s2[3])
-	t.Log(len(s2), cap(s2))
+	t.Log(s2[0], s2[1], s2[2], s2[3]) // 0 0 0 1
+	t.Log(len(s2), cap(s2)) // 4 5
 }
 
 func TestSliceGrowing(t *testing.T) {
