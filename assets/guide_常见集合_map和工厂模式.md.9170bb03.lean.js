@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,d as t}from"./app.202eef8d.js";const p='{"title":"Map 和工厂模式","description":"","frontmatter":{},"headers":[{"level":2,"title":"实现 Set","slug":"实现-set"}],"relativePath":"guide/常见集合/map和工厂模式.md","lastUpdated":1632212524969}',o={},c=[t('',8)];var e=n(o,[["render",function(n,t,p,o,e,u){return a(),s("div",null,c)}]]);export{p as __pageData,e as default};
